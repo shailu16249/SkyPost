@@ -1,0 +1,594 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"mt",
+				"mt-md-0"
+			],
+			[
+				"mx",
+				"mx-5"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"ema",
+				"emailForm"
+			],
+			[
+				"com",
+				"com"
+			],
+			[
+				"E",
+				"EMAIL_PORT"
+			],
+			[
+				"fro",
+				"for\tFor Loop"
+			],
+			[
+				"fo",
+				"froms"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"p",
+				"png"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"sli",
+				"slide"
+			],
+			[
+				"back",
+				"background-attachment\tproperty"
+			],
+			[
+				"bac",
+				"background-position\tproperty"
+			],
+			[
+				"ba",
+				"background-repeat\tproperty"
+			],
+			[
+				"c",
+				"contact"
+			],
+			[
+				"posts",
+				"posts"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"po",
+				"posts"
+			],
+			[
+				"posts_",
+				"posts_list"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"M",
+				"MEDIA_URL"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"all",
+				"all_posts"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"b",
+				"body\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"us",
+				"user_stripe_account"
+			],
+			[
+				"crea",
+				"Create"
+			],
+			[
+				"use",
+				"user_stripe_account"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"pr",
+				"profiles_account_views"
+			],
+			[
+				"conf",
+				"confirm_message"
+			],
+			[
+				"cont",
+				"context"
+			],
+			[
+				"e",
+				"emailTo"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"pass",
+				"Password"
+			],
+			[
+				"conta",
+				"contactForm"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"en",
+				"engineering"
+			],
+			[
+				"sta",
+				"state_exam"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"def",
+				"default"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/shailendra/SkyP/myp/contact/templates/posts/contact.html",
+			"settings":
+			{
+				"buffer_size": 4035,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/shailendra/SkyP/myp/contact/templates/posts/contact.html",
+		"/home/shailendra/SkyP/myp/manage.py",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/account/signup.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/account/logout.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/account/login.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/logout.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/signup.html",
+		"/home/shailendra/SkyP/myp/posts/views.py",
+		"/home/shailendra/SkyP/myp/myp/urls.py",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/login.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/logout.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/navbar.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/posts_list.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/base.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/home.html",
+		"/home/shailendra/SkyP/myp/myp/settings.py",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/profile.html",
+		"/home/shailendra/SkyP/myp/contact/views.py",
+		"/home/shailendra/SkyP/myp/contact/forms.py",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/posts_detail.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/posts_create.html",
+		"/home/shailendra/SkyP/myp/contact/templates/contact.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/about.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/contact.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/posts/post_detail.html",
+		"/home/shailendra/shailu/trydjango/src/myp/settings.py",
+		"/home/shailendra/shailu/trydjango/src/myp/urls.py",
+		"/home/shailendra/shailu/trydjango/src/posts/views.py",
+		"/home/shailendra/shailu/trydjango/src/posts/tests.py",
+		"/home/shailendra/shailu/trydjango/src/posts/forms.py",
+		"/home/shailendra/shailu/trydjango/src/posts/apps.py",
+		"/home/shailendra/shailu/trydjango/src/posts/models.py",
+		"/home/shailendra/shailu/trydjango/src/posts/admin.py",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/posts/posts_list.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/posts/posts_create.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/posts/base.html",
+		"/home/shailendra/shailu/trydjango/src/myp/wsgi.py",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/0001_initial.py",
+		"/home/shailendra/shailu/trydjango/src/db.sqlite3",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/posts/posts_list.html",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/posts/home.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/posts/home.html",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/posts/posts_create.html",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/templates/posts_list.html",
+		"/home/shailendra/shailu/trydjango/src/posts/migrations/0002_auto_20190114_0640.py",
+		"/home/shailendra/shailu/trydjango/src/shailu/views.py",
+		"/home/shailendra/shailu/trydjango/src/shailu/admin.py",
+		"/home/shailendra/shailu/trydjango/src/shailu/models.py",
+		"/home/shailendra/shailu/trydjango/src/shailu/migrations/templates/shailu_list.html",
+		"/home/shailendra/shailu/trydjango/src/shailu/migrations/templates/shailu_detail.html",
+		"/home/shailendra/shailu/trydjango/src/shailu/migrations/templates/shailu_create.html",
+		"/home/shailendra/shailu/trydjango/src/shailu/migrations/templates/base.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/account/signup.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/account/logout.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/account/login.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/about.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/base.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/navbar.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/home.html",
+		"/home/shailendra/shailu/trydjango/src/posts/templates/account",
+		"/home/shailendra/shailu/trydjango/src/posts/templates",
+		"/home/shailendra/SkyP/myp/posts/admin.py",
+		"/home/shailendra/SkyP/myp/posts/models.py",
+		"/home/shailendra/SkyP/myp/posts/templates/account/signup.html",
+		"/home/shailendra/SkyP/myp/posts/templates/account/logout.html",
+		"/home/shailendra/SkyP/myp/posts/templates/account/login.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts_list.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts_datail.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts_create.html",
+		"/home/shailendra/SkyP/myp/posts/templates/base.html",
+		"/home/shailendra/SkyP/myp/posts/templates/posts/post_create.html",
+		"/home/shailendra/SkyP/myp/posts/forms.py",
+		"/home/shailendra/SkyP/myp/posts/templates/posts_update.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/contact/templates/contact.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/navbar.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/singup.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/ssc.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/login.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/medical.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/home.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/engineering.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/upsc.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/state_exam.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/checkout/templates/checkout.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/trydjango/settings.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/base.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/views.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/checkout/views.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/checkout/apps.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/models.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/admin.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/contact/views.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/trydjango/urls.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/profile.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/signin.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/signup.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/signup",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/account/signup.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/trydjango/untitled",
+		"/home/shailendra/DJANGO/trydjango/trydjango/contact/forms.py",
+		"/home/shailendra/DJANGO/trydjango/trydjango/trydjango/undefined",
+		"/home/shailendra/DJANGO/trydjango/trydjango/profiles/templates/about.html",
+		"/home/shailendra/DJANGO/trydjango/trydjango/contact/migrations/contact.html",
+		"/home/shailendra/DJANGO/trydjango/static/static/css/main.css",
+		"/home/shailendra/DJANGO/trydjango/static/static/javascript/bootstrap.bundle.min.js",
+		"/home/shailendra/DJANGO/trydjango/static/static/css/bootstrap.min.css",
+		"/home/shailendra/DJANGO/trydjango/static/static/css/theme.css",
+		"/home/shailendra/DJANGO/trydjango/static/static/javascript/docs.min.js",
+		"/home/shailendra/DJANGO/trydjango/static/static/css/bootstrap-theme.min.css",
+		"/home/shailendra/DJANGO/trydjango/trydjango/manage.py",
+		"/home/shailendra/DJANGO/trydjango/src/skyNewProject/skyNewProject/settings.py",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/show.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/new.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/login.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/layout.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/index_product.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/index.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/edit.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/change_password.html",
+		"/home/shailendra/new/Pictures/Django-ROMS-master/orders/templates/new_product.html",
+		"/home/shailendra/DJANGO/trydjango/src/skyNewProject/db.sqlite3",
+		"/home/shailendra/DJANGO/trydjango/src/skyNewProject/skyNewProject/urls.py",
+		"/home/shailendra/DJANGO/trydjango/src/skyNewProject/manage.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/shailendra/SkyP/myp/contact/templates/posts/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "django-admin.cpython-36.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

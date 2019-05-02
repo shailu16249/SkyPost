@@ -1,0 +1,269 @@
+{% extends "posts/base.html" %}
+{% load staticfiles %}
+
+
+ {% block styles %}
+ 
+    <style>
+      .mb40{margin-bottom:40px;}
+      .team-block { margin-bottom: 20px; }
+      .team-content { position: absolute; background-color: rgba(17, 24, 31, 0.8); bottom: 0px; display: inline-block; width: 100%; color: #fff; padding: 30px; }
+      .team-img { position: relative; }
+      .team-img img { width: 100%; }
+      .team-title { }
+      .team-meta { color: #9da4aa; font-weight: 400; font-size: 16px; }
+      .overlay { border-radius: 0px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: 1s ease; background-color: #11181f; }
+      .team-img:hover .overlay { opacity: .8; }
+      .team-img:hover .team-content { opacity: 0; }
+      .text { color: orange; position: absolute; top: 30%; left: 30%; transform: translate(-26%, -26%); -ms-transform: translate(-26%, -26%); right: 0; font-weight: 400; font-size: 16px; }
+
+
+        .footer {color:#ccc;}
+         .hr-h3s {
+          border: 3px solid #E94B3C;
+          width: 70px;
+          margin: 0 auto 35px auto;
+        }
+
+       #responsive{
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        position: relative;
+       } 
+       #responsive iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+       }
+
+
+        .h7 {
+            font-size: 0.8rem;
+        }
+
+        .gedf-wrapper {
+            margin-top: 0.97rem;
+        }
+
+        @media (min-width: 992px) {
+            .gedf-main {
+                padding-left: 4rem;
+                padding-right: 4rem;
+            }
+            .gedf-card {
+                margin-bottom: 2.77rem;
+            }
+        }
+
+        /**Reset Bootstrap*/
+        .dropdown-toggle::after {
+            content: none;
+            display: none;
+        }   
+
+     </style>
+ {% endblock %} 
+
+{% block content %}
+
+           <div class="w3-container  w3-animate-zoom">
+            <h1 style="color: purple;">My Blog Posts<small style="padding-left: 20px;"><a href="/create/"><button class="btn btn-success"> Create </button></a></small></h1>
+          </div>
+            <hr>
+
+
+
+  <div class="container-fluid gedf-wrapper">
+        <div class="row">
+          
+      <div class="col-md-8 gedf-main">
+  <!--- \\\\\\\Post-->
+                <div class="card gedf-card">
+                  {% for post in all_posts %}
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src="{% static "img/sk.jpg" %}" alt="">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0">
+
+      <h2><a href="{{ post.get_absolute_url }}"><button class="btn btn-info">{{ post.title }}</button></a> 
+          <small><sub class="h7 text-muted" style="color:orange;">Written by {{ post.author }}</sub></small>
+      </h2>      
+
+                                    </div>
+                              
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn btn-link dropdown-toggle" type="button" id="gedf-drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h"></i>
+                                    </button>
+                                  
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="gedf-drop1">
+                                        <div class="h6 dropdown-header">Configuration</div>
+                                        <a class="dropdown-item" href="#">Save</a>
+                                        <a class="dropdown-item" href="#">Hide</a>
+                                        <a class="dropdown-item" href="#">Report</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-body">           
+                      <p style="color:rgb(0, 0, 255);">{{ post.description }}</p>
+                      <div class="row">
+                          <div>
+                              <img src="{{ post.image.url }}" width="600" height="400"  class="w3-border" alt="Norway" style="padding:4px; color: red;" alt="Lights" style="width:100%" >
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="#" class="card-link"><i class="fa fa-gittip"></i> Like</a>
+                        <a href="#" class="card-link"><i class="fa fa-comment"></i> Comment</a>
+                        <a href="#" class="card-link"><i class="fa fa-mail-forward"></i> Share</a>
+                    </div>
+          <br><br>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card gedf-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card gedf-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                </div>
+                 <div class="card gedf-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+{% endblock content %}
+
+
+{% block overlay %}  
+         <div class="row" style="color: black;" id="Team">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb40 text-center" >
+                        <h1>Our Team</h1>
+                         <hr class="hr-h3s"> 
+                </div>     
+        
+                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="{% static "img/1.jpg" %}" alt="">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Shailendra</h4>
+                                <p class="team-meta">- Producer</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">Shailendra</h4>
+                                    <p class="mb30 team-meta">- Producer</p>
+                                    <p>Web Producers are responsible for what you see when you open a website, meaning that they ensure that the content of a website is optimized for a user experience. Web Producers are in charge of arranging, editing, and many times even creating content for websites</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">                
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="{% static "img/sk2.jpg" %}" alt="">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">Shailu</h4>
+                                <p class="team-meta">- Creative Director</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">Shailu</h4>
+                                    <p class="mb30 team-meta">- Creative Director</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">                    
+                    <div class="team-block">
+                        <div class="team-img">
+                            <img src="{% static "img/sk.jpg" %}" alt="" class="img-fluid">
+                            <div class="team-content">
+                                <h4 class="text-white mb0">SKY</h4>
+                                <p class="team-meta">- Project Manager</p>
+                            </div>
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4 class="mb0 text-white">SKY</h4>
+                                    <p class="mb30 team-meta">- Project Manager</p>
+                                    <p>Mauris tincidunt dolor eget diam dapibus vitae finibusnisl friuisque pretiuam egete euismod justam ac temlibern rutrum nisli in mi rhoncac pharetra odioacin ntesque dictum vel risus quis egeaecenas necese purus quaroin tincidunt neque malesuda vulputate lecton pretiume.</p>
+                                </div>
+                            </div>
+                        </div>{% url 'contact' %}
+                    </div>
+                </div>
+                
+            </div>
+{% endblock %}
+
+
+  {% block footer %}
+<hr>
+  <div class="footer bg-dark pt-5 pb-3">
+    <div class="container pt-4">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h6>Say hello admin@invictus.com</h6>
+                <ul class="list-unstyled">
+                    
+                <li class="list-inline-item"><a href="{% url 'Home' %}"> Home</a></li>
+                <li class="list-inline-item"><a href="#"> About us</a></li>
+                <li class="list-inline-item"><a href="#"> Privacy</a></li>
+                <li class="list-inline-item"><a href="#"> Terms & Conditions</a></li>
+                <li class="list-inline-item"><a href="{% url 'contact' %}"> Contact us</a></li>
+            </ul>
+            <p>Powered by :  Invictus - Premium WordPress Theme</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+ 

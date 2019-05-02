@@ -1,0 +1,23 @@
+{% extends "posts/base.html" %}
+
+{% block content %}
+
+                <div class="row">
+                  <div>
+                   <h2><a href="{{ post.get_absolute_url }}"><button class="btn btn-info">{{ post.title }}</button></a> 
+                       <small><sub style="color:orange;">Written by {{ post.author }}</sub></small>
+                   </h2>
+                    <p style="color:rgb(0, 0, 255);">{{ post.description }}</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div>
+                    <img src="{{ post.image.url }}" width="600" height="400"  class="w3-border" alt="Norway" style="padding:4px; color: red;" alt="Lights" style="width:100%" >
+                  </div>
+                </div>
+     <button class="btn btn-warning"><a href="/">Go back TO all posts</a></button>
+      <button class="btn btn-success"><a href="{{ post.get_update_url }}">Update</a></button>
+     <button class="btn btn-danger"><a href="{{ post.get_delete_url }}">Delete</a></button>
+
+
+{% endblock content %}

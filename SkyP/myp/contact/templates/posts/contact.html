@@ -1,0 +1,130 @@
+{% extends "posts/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<style >
+    h1 {
+          text-transform: none;
+          font-weight: 600;
+          font-family: 'Lato', sans-serif;
+          text-align: center;
+        }
+      .container-h1 {
+          font-family: 'Lora', serif;
+          text-align: center;
+          font-size: 50px;
+          font-weight: 700;
+          margin: 50px auto;
+          color: #333;
+          font-family: 'Ubuntu', sans-serif;    
+      }
+ 
+
+
+            #contact .form-group input, 
+            #contact .form-group textarea {
+              border: 1px solid #000;
+              border-radius: 0;
+              
+              
+            }
+
+            #contact .form-group input:hover,
+            #contact .form-group textarea:hover {
+              border-color: #ababee;
+              box-shadow: 2px 2px 2px rgba(0,0,0, .2);
+
+            }
+
+            #contact .contact-buttons input, 
+            #contact .contact-buttons input:focus {
+              color: #fff;
+              background-color: #182c39;
+              margin: 20px auto 40px auto;
+              border-radius: 0;
+              font-weight: 500;
+              padding: 10px;
+              border: 1px solid #182c39;
+              cursor: pointer;
+            }
+
+            #contact .contact-buttons input:hover {
+              color: #182c39;
+              background-color: #fff;
+              
+            }
+
+            #contact .left-box {
+              background-color: #182c39;
+              margin: 0 20px;
+              font-size: 15px;
+              text-transform: none;
+              line-height: 1.8em;
+              font-weight: 500;
+              padding: 30px 50px;
+              color: #fff;
+            }
+
+            #contact .left-box .span-contact {
+              color: #ffc266;
+              font-weight: 700;
+              padding-right: 20px;
+              font-size: 17px;
+            }
+
+
+
+    </style> 
+  
+</style>
+
+  <section class="bg-contact bg-section" id="contact">
+        <div class="container-fluid">
+            <h1 class="container-h1">Contact us</h1>
+            <div class="row slideanim">
+                <div class="py-5 col-md-6 col-sm-6 contact-left">
+                	<h1 style="color: red;">Address</h1>
+                    <div class="left-box">
+
+                        <address class="contact">
+                            <span class="span-contact">Contact Number :</span>
+                            <br>
+                            7390086620 
+                            <br> 
+                            <span class="span-contact">Contact Person :</span>
+                            <br>
+                            Shailendra Kumar
+                            <br> 
+                            <span class="span-contact">Email:</span> 
+                            <br>
+                            skyshailendra1997@gmail.com
+                            <br>
+                            <span class="span-contact">Visit:</span>  
+                            <br>
+                            Khosla Hostel
+                            <br>
+                            KNIT SULTANPUR
+                            <br>
+                            UP INDIA
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 contact-right" >
+                  <div> 
+                      <h1> {{ title }} </h1>
+                      {% if confirm_message %}
+                      <p>{{ confirm_message }}</p>
+                      {% endif %}
+                      {% if form %}
+                      <form method='POST' action=''>{% csrf_token %}
+                      {{ form|crispy }}
+                      <input type='submit' value='submit form' class='btn btn-success' /> 
+                      </form>
+                      {% endif %}
+                      </div>
+                            
+                </div>
+            </div>
+        </div>    
+    </section>
+{% endblock %}
